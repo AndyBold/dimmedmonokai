@@ -3,28 +3,9 @@
 ;; Copyright (C) 2017
 
 ;; Author: Andrew Bold <andy.bold@gmail.com>
-;;
-;; Version: 0.0.1
-
-;;; Commentary:
-;;
-;; This is the Dimmed Monokai theme based on the original Monkai Theme bt Kelvin Smith
-;; with a colour scheme taken from DimmedMonokai.itercolors which is part
-;; of the iTerm 2 colour themes pack hosted at http://iterm2colorschemes.com
-;;
-;; The theme is a muted version of the original Monokai. That's it. Full kudos to the
-;; Kelvin for the original theme, and the iTerm 2 folks for the colours.
-;;
-;; Original monokai package details and commentary is below.
-
-;; Based on monokai-theme.el by Kelvin Smith
-
-;; Copyright (C) 2011-2016
-
-;; Author: Kelvin Smith <oneKelvinSmith@gmail.com>
-;; URL: http://github.com/oneKelvinSmith/monokai-emacs
-;; Package-Version: 20170314.1612
-;; Version: 3.3.0
+;; URL: https://github.com/AndyBold/dimmedmonokai-theme
+;; Package-Version: TBC
+;; Version: 0.0.2
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -41,30 +22,20 @@
 
 ;;; Commentary:
 ;;
-;; A port of the popular Textmate theme Monokai for Emacs 24, built on top
-;; of the new built-in theme support in Emacs 24.
+;; This is the Dimmed Monokai theme based on Monokai Theme by Kelvin Smith
+;; with a colour scheme taken from the DimmedMonokai theme which is part
+;; of the iTerm 2 colour themes pack hosted at http://iterm2colorschemes.com
+;;
+;; Any problems with this revision are of my making.
+;;
+;; The theme is a muted version of the original Monokai. That's it. Full kudos to the
+;; Kelvin for the original theme, and the iTerm 2 folks for the colours.
 ;;
 ;;; Credits:
 ;;
-;; Wimer Hazenberg created the original theme.
-;; - http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/
-;;
-;; Bozhidar Batsov created zenburn-theme.el and solarized-theme.el
-;;  on which this file is based.
-;; - https://github.com/bbatsov/zenburn-emacs
-;;
-;; Color Scheme Designer 3 for complementary colours.
-;; - http://colorschemedesigner.com/
-;;
-;; Xterm 256 Color Chart
-;; - https://upload.wikimedia.org/wikipedia/en/1/15/Xterm_256color_chart.svg
-;;
-;; K. Adam Christensen for his personal monokai theme that addresses 256 colours.
-;; - https://github.com/pope/personal/blob/master/etc/emacs.d/monokai-theme.el
-;;
-;; Thomas Frössman for his work on solarized-emacs.
-;; - http://github.com/bbatsov/solarized-emacs
-;;
+;; Kelvin Smith created monokai-theme for Emacs
+;; - http://github.com/oneKelvinSmith/monokai-emacs
+
 ;;; Code:
 
 (unless (>= emacs-major-version 24)
@@ -134,7 +105,7 @@ Also affects 'linum-mode' background."
   :type 'string
   :group 'dimmedmonokai)
 
-(defcustom dimmedmonokai-blue "#708AB1"
+(defcustom dimmedmonokai-blue "#608AB1"
   "Primary colors - blue"
   :type 'string
   :group 'dimmedmonokai)
@@ -154,7 +125,7 @@ Also affects 'linum-mode' background."
   :type 'string
   :group 'dimmedmonokai)
 
-(defcustom dimmedmonokai-gray "#C5C8C6"
+(defcustom dimmedmonokai-gray "#9A9B99"
   "Primary colors - gray"
   :type 'string
   :group 'dimmedmonokai)
@@ -169,12 +140,12 @@ Also affects 'linum-mode' background."
   :type 'string
   :group 'dimmedmonokai)
 
-(defcustom dimmedmonokai-comments "#9A9B99"
+(defcustom dimmedmonokai-comments "#4B4E55"
   "Adaptive colors - comments"
   :type 'string
   :group 'dimmedmonokai)
 
-(defcustom dimmedmonokai-emphasis "#C5C8C6"
+(defcustom dimmedmonokai-emphasis "#CC555A"
   "Adaptive colors - emphasis"
   :type 'string
   :group 'dimmedmonokai)
