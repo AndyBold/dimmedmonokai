@@ -22,6 +22,34 @@ Now you can load the theme with the interactive function `load-theme` like this:
 
     M-x load-theme RET monokai
 
+### A better way
+
+Use monokai theme, and override the colours.
+
+eg,
+
+    ;; Another way to apply dimmed Monokai...
+    (setq ;; foreground and background
+    monokai-foreground     "#C5C8C6"
+    monokai-background     "#292929"
+    ;; highlights and comments
+    monokai-comments       "#4B4E55"
+    monokai-emphasis       "#CC555A"
+    monokai-highlight      "#4B4E55"
+    monokai-highlight-alt  "#398280"
+    monokai-highlight-line "#4B4E55"
+    monokai-line-number    "#9A9B99"
+    ;; colours
+    monokai-blue           "#60bAB1"
+    monokai-cyan           "#68A0B3"
+    monokai-green          "#98A84B"
+    monokai-gray           "#9A9B99"
+    monokai-violet         "#FF2C7A"
+    monokai-red            "#CC555A"
+    monokai-orange         "#D08442"
+    monokai-yellow         "#D0B344")
+
+    (load-theme 'monokai t)
 
 ### MELPA
 
